@@ -1,0 +1,70 @@
+{
+  "name": "@powerpbox/mcp",
+  "version": "1.4.0",
+  "type": "module",
+  "description": "Model Context Protocol - India-first AI tools for LLMs with LogisticsRAG and Skills",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "powerpbox-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "skills"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "node dist/test.js"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "tools",
+    "india",
+    "whatsapp",
+    "telegram",
+    "ulip",
+    "upi",
+    "ankr",
+    "logistics",
+    "rag",
+    "hybrid-search",
+    "compliance",
+    "trucking",
+    "skills",
+    "file-agents"
+  ],
+  "author": "ANKR Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ankr/package-doctor": "^1.0.0",
+    "@ankr/discovery": "^1.0.0",
+    "axios": "^1.6.0",
+    "pg": "^8.11.0"
+  },
+  "peerDependencies": {
+    "@ankr/eon": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@ankr/eon": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@ankr/eon": "^3.0.0",
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.10.0",
+    "typescript": "^5.9.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "@types/jest": "^29.5.0"
+  }
+}
