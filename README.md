@@ -1,6 +1,6 @@
 # @powerpbox/mcp — India-first MCP Tools for AI Agents
 
-[![npm](https://img.shields.io/npm/v/@powerpbox/mcp)](https://www.npmjs.com/package/@powerpbox/mcp)
+[![npm](https://img.shields.io/npm/v/@rocketlang/mcp)](https://www.npmjs.com/package/@rocketlang/mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **282 production-ready MCP (Model Context Protocol) tools** for Indian enterprise workflows — designed for Claude, GPT-4, Gemini, and any LLM with function-calling.
@@ -29,12 +29,13 @@ Most MCP tool libraries focus on Western markets. Indian businesses need tools t
 ## Quick Start
 
 ```bash
-npm install @powerpbox/mcp
+npm install @rocketlang/mcp
 # or
-bun add @powerpbox/mcp
+bun add @rocketlang/mcp
 ```
 
 ```typescript
+// @rocketlang/mcp (mirrors to @powerpbox/mcp once org is ready)
 import { setupAllTools, getAllMCPTools, executeMCPTool } from '@powerpbox/mcp';
 
 // Wire up all 282 tools

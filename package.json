@@ -1,8 +1,8 @@
 {
-  "name": "@powerpbox/mcp",
+  "name": "@rocketlang/mcp",
   "version": "1.4.0",
   "type": "module",
-  "description": "Model Context Protocol - India-first AI tools for LLMs with LogisticsRAG and Skills",
+  "description": "282 India-first MCP tools for AI agents \u2014 GST, e-Invoice, VAHAN, container tracking, fleet, banking & more",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -16,7 +16,10 @@
   },
   "files": [
     "dist",
-    "skills"
+    "skills",
+    "server",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsc",
@@ -45,8 +48,6 @@
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
-    "@ankr/package-doctor": "^1.0.0",
-    "@ankr/discovery": "^1.0.0",
     "axios": "^1.6.0",
     "pg": "^8.11.0"
   },
@@ -66,5 +67,13 @@
     "jest": "^29.7.0",
     "ts-jest": "^29.1.0",
     "@types/jest": "^29.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rocketlang/mcp-tools.git"
+  },
+  "homepage": "https://github.com/rocketlang/mcp-tools#readme",
+  "bugs": {
+    "url": "https://github.com/rocketlang/mcp-tools/issues"
   }
 }
